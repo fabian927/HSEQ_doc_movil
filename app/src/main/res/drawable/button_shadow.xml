@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sombra -->
+    <item>
+        <shape>
+            <corners android:radius="15dp"/> <!-- Bordes redondeados opcionales -->
+            <solid android:color="#55000000"/> <!-- Sombra gris (50% opaco) -->
+        </shape>
+    </item>
+
+    <!-- Botón principal -->
+    <item android:top="4dp" android:left="4dp">
+        <shape>
+            <corners android:radius="15dp"/> <!-- Bordes redondeados -->
+            <solid android:color="#880000ff"/> <!-- Color de fondo del botón -->
+        </shape>
+    </item>
+</layer-list>
